@@ -38,13 +38,6 @@ export const allJobOpenings = [
     description:
       "We are seeking a talented and passionate Video Editor to join our dynamic media team. The ideal candidate will have a solid foundation in video editing techniques and a keen eye for storytelling. You will contribute to creating captivating content for our various platforms, ensuring our message reaches and resonates with our audience",
   },
-  // {
-  //   title: "Senior Product designer",
-  //   tags: ["Hybrid", "Full-time"],
-  //   category: "Design",
-  //   description:
-  //     "Since 2019 we've worked on 30+ major projects from 8 different industries that are being used by 500,000+ users and 1000+ businesses from 70+ different countries. Need full-cycle product development or an improvement cycle? Let's talk!",
-  // },
   {
     id: "2",
     title: "secretary",
