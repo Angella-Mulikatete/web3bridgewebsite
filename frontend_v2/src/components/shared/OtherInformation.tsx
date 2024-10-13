@@ -36,7 +36,7 @@ export default function OtherInformation({
   isRegistering: boolean;
   submitData: () => void;
 }) {
-  // const router = useRouter();
+  const router = useRouter();
   const [isCheckboxChecked, setIsCheckboxChecked] = useState(false);
 
   const form = useForm<z.infer<typeof otherSchema>>({
@@ -71,7 +71,7 @@ export default function OtherInformation({
       return validCodes.includes(code);
     }
     submitData();
-    // router.push("/payment-success");
+    router.push("http://localhost:3002");
   }
 
   return (
